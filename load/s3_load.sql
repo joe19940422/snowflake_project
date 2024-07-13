@@ -4,8 +4,8 @@ use schema employees.public
 create stage my_stage_s3
     url = 's3://feiawstest/data/'
     credentials = (
-        aws_key_id = 'AKIAQQHIR4BTHKBI7JMR'
-        aws_secret_key = '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'
+        aws_key_id = '**'
+        aws_secret_key = '**'
     );
 
 list @my_stage_s3
